@@ -10,7 +10,7 @@ public class Simplecal {
     int mul(int a,int b){
         return a*b;
     }
-    int div(int a,int b) {
+    int div(int a,int b) throws ArithmeticException{
         try {
             if (b == 0) {
                 throw new ArithmeticException("Cannot divide by zero.");
